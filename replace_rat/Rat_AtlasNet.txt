@@ -1,0 +1,66 @@
+cingulate gyrus _left	cingulate gyrus _left	1
+frontal association cortex_left	frontal association cortex_left	2
+frontal cortex area 3_left	frontal cortex area 3_left	3
+infralimbic cortex_left	infralimbic cortex_left	4
+insular cortex_left	insular cortex_left	5
+motor cortex _left	motor cortex _left	6
+olfactory cortex_left	olfactory cortex_left	7
+orbital cortex_left	orbital cortex_left	8
+parietal association cortex_left	parietal association cortex_left	9
+parietal cortex posterior area_left	parietal cortex posterior area_left	10
+piriform cortex_left	piriform cortex_left	11
+prelimbic cortex_left	prelimbic cortex_left	12
+sensory cortex _left	sensory cortex _left	13
+temporal association cortex_left	temporal association cortex_left	14
+visual cortex _left	visual cortex _left	15
+retrosplenial cortex_left	retrosplenial cortex_left	16
+auditory cortex_left	auditory cortex_left	17
+hippocampus_left	hippocampus_left	18
+Thalamus_lateral nucleus group_left	Thalamus_lateral nucleus group_left	19
+Thalamus_medial nucleus group_left	Thalamus_medial nucleus group_left	20
+Thalamus_midline nucleus group_left	Thalamus_midline nucleus group_left	21
+anterior nucleus group _left	anterior nucleus group _left	22
+interstitial nucleus _left	interstitial nucleus _left	23
+midbrain_tegmentum of midbrain_left	midbrain_tegmentum of midbrain_left	24
+midbrain _ inferior colliculus _left	midbrain _ inferior colliculus _left	25
+striatum_left	striatum_left	26
+accumbens nucleus_left	accumbens nucleus_left	27
+amygdaloid body_left	amygdaloid body_left	28
+bed nucleus of stria terminalis _left	bed nucleus of stria terminalis _left	29
+capsule_left	capsule_left	30
+red nucleus_left	red nucleus_left	31
+hypothalamus_preoptic region_left	hypothalamus_preoptic region_left	32
+mammillary region_left	mammillary region_left	33
+cingulate gyrus _right	cingulate gyrus _right	34
+frontal association cortex_right	frontal association cortex_right	35
+frontal cortex area 3_right	frontal cortex area 3_right	36
+infralimbic cortex_right	infralimbic cortex_right	37
+insular cortex_right	insular cortex_right	38
+motor cortex _right	motor cortex _right	39
+olfactory cortex_right	olfactory cortex_right	40
+orbital cortex_right	orbital cortex_right	41
+parietal association cortex_right	parietal association cortex_right	42
+parietal cortex posterior area_right	parietal cortex posterior area_right	43
+piriform cortex_right	piriform cortex_right	44
+prelimbic cortex_right	prelimbic cortex_right	45
+sensory cortex _right	sensory cortex _right	46
+temporal association cortex_right	temporal association cortex_right	47
+visual cortex _right	visual cortex _right	48
+retrosplenial cortex_right	retrosplenial cortex_right	49
+auditory cortex_right	auditory cortex_right	50
+hippocampus_right	hippocampus_right	51
+Thalamus_lateral nucleus group_right	Thalamus_lateral nucleus group_right	52
+Thalamus_medial nucleus group_right	Thalamus_medial nucleus group_right	53
+Thalamus_midline nucleus group_right	Thalamus_midline nucleus group_right	54
+anterior nucleus group _right	anterior nucleus group _right	55
+interstitial nucleus _right	interstitial nucleus _right	56
+midbrain_tegmentum of midbrain_right	midbrain_tegmentum of midbrain_right	57
+midbrain _ inferior colliculus _right	midbrain _ inferior colliculus _right	58
+striatum_right	striatum_right	59
+accumbens nucleus_right	accumbens nucleus_right	60
+amygdaloid body_right	amygdaloid body_right	61
+bed nucleus of stria terminalis _right	bed nucleus of stria terminalis _right	62
+capsule_right	capsule_right	63
+red nucleus_right	red nucleus_right	64
+hypothalamus_preoptic region_right	hypothalamus_preoptic region_right	65
+mammillary region_right	mammillary region_right	66

@@ -1,0 +1,90 @@
+%-----------------------------------------------------------------------
+% Job saved on 02-Dec-2019 16:23:06 by cfg_util (rev $Rev: 6134 $)
+% spm SPM - SPM12 (6225)
+% cfg_basicio BasicIO - Unknown
+%-----------------------------------------------------------------------
+matlabbatch{1}.spm.stats.factorial_design.dir = '<UNDEFINED>';
+matlabbatch{1}.spm.stats.factorial_design.des.pt.pair(1).scans = '<UNDEFINED>';
+matlabbatch{1}.spm.stats.factorial_design.des.pt.pair(2).scans = '<UNDEFINED>';
+matlabbatch{1}.spm.stats.factorial_design.des.pt.pair(3).scans = '<UNDEFINED>';
+matlabbatch{1}.spm.stats.factorial_design.des.pt.pair(4).scans = '<UNDEFINED>';
+matlabbatch{1}.spm.stats.factorial_design.des.pt.pair(5).scans = '<UNDEFINED>';
+matlabbatch{1}.spm.stats.factorial_design.des.pt.pair(6).scans = '<UNDEFINED>';
+matlabbatch{1}.spm.stats.factorial_design.des.pt.pair(7).scans = '<UNDEFINED>';
+matlabbatch{1}.spm.stats.factorial_design.des.pt.pair(8).scans = '<UNDEFINED>';
+matlabbatch{1}.spm.stats.factorial_design.des.pt.pair(9).scans = '<UNDEFINED>';
+matlabbatch{1}.spm.stats.factorial_design.des.pt.pair(10).scans = '<UNDEFINED>';
+% matlabbatch{1}.spm.stats.factorial_design.des.pt.pair(11).scans = '<UNDEFINED>';
+% matlabbatch{1}.spm.stats.factorial_design.des.pt.pair(12).scans = '<UNDEFINED>';
+% matlabbatch{1}.spm.stats.factorial_design.des.pt.pair(13).scans = '<UNDEFINED>';
+% matlabbatch{1}.spm.stats.factorial_design.des.pt.pair(14).scans = '<UNDEFINED>';
+% matlabbatch{1}.spm.stats.factorial_design.des.pt.pair(15).scans = '<UNDEFINED>';
+% matlabbatch{1}.spm.stats.factorial_design.des.pt.pair(16).scans = '<UNDEFINED>';
+% matlabbatch{1}.spm.stats.factorial_design.des.pt.pair(17).scans = '<UNDEFINED>';
+matlabbatch{1}.spm.stats.factorial_design.des.pt.gmsca = 0;
+matlabbatch{1}.spm.stats.factorial_design.des.pt.ancova = 0;
+matlabbatch{1}.spm.stats.factorial_design.cov = struct('c', {}, 'cname', {}, 'iCFI', {}, 'iCC', {});
+matlabbatch{1}.spm.stats.factorial_design.multi_cov = struct('files', {}, 'iCFI', {}, 'iCC', {});
+matlabbatch{1}.spm.stats.factorial_design.masking.tm.tm_none = 1;
+matlabbatch{1}.spm.stats.factorial_design.masking.im = 1;
+matlabbatch{1}.spm.stats.factorial_design.masking.em = {fullfile(spm('Dir'),'toolbox', 'spmAnimalIHEP','replace_mouse','canonical','fsingle_brain_MIP.nii')};
+% matlabbatch{1}.spm.stats.factorial_design.masking.em = {fullfile(spm('Dir'),'toolbox', 'spmAnimalIHEP','replace_mouse','canonical','White_matter.nii')};
+
+matlabbatch{1}.spm.stats.factorial_design.globalc.g_omit = 1;
+
+% matlabbatch{1}.spm.stats.factorial_design.masking.em ={'E:\Program Files\MATLAB\spm8\toolbox\spmratIHEP\canonical\brainmask.img,1'};
+% matlabbatch{1}.spm.stats.factorial_design.globalc.g_mean = 1;
+% matlabbatch{1}.spm.stats.factorial_design.globalm.gmsca.gmsca_yes.gmscv = 50;
+% matlabbatch{1}.spm.stats.factorial_design.globalm.glonorm = 2;
+
+matlabbatch{2}.spm.stats.fmri_est.spmmat(1) = cfg_dep('Factorial design specification: SPM.mat File', substruct('.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','spmmat'));
+matlabbatch{2}.spm.stats.fmri_est.write_residuals = 0;
+matlabbatch{2}.spm.stats.fmri_est.method.Classical = 1;
+matlabbatch{3}.spm.stats.con.spmmat(1) = cfg_dep('Model estimation: SPM.mat File', substruct('.','val', '{}',{2}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','spmmat'));
+matlabbatch{3}.spm.stats.con.consess{1}.tcon.name = '<UNDEFINED>';
+matlabbatch{3}.spm.stats.con.consess{1}.tcon.weights = [1 -1];
+matlabbatch{3}.spm.stats.con.consess{1}.tcon.sessrep = 'none';
+matlabbatch{3}.spm.stats.con.consess{2}.tcon.name = '<UNDEFINED>';
+matlabbatch{3}.spm.stats.con.consess{2}.tcon.weights = [-1 1];
+matlabbatch{3}.spm.stats.con.consess{2}.tcon.sessrep = 'none';
+matlabbatch{3}.spm.stats.con.delete = 0;
+matlabbatch{4}.spm.stats.results.spmmat(1) = cfg_dep('Contrast Manager: SPM.mat File', substruct('.','val', '{}',{3}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','spmmat'));
+matlabbatch{4}.spm.stats.results.conspec.titlestr = '';
+matlabbatch{4}.spm.stats.results.conspec.contrasts = Inf;
+matlabbatch{4}.spm.stats.results.conspec.threshdesc = 'FWE';
+matlabbatch{4}.spm.stats.results.conspec.thresh = 0.05;
+matlabbatch{4}.spm.stats.results.conspec.extent = 5;
+matlabbatch{4}.spm.stats.results.conspec.mask.none = 1;
+matlabbatch{4}.spm.stats.results.units = 1;
+matlabbatch{4}.spm.stats.results.print = 'ps';
+matlabbatch{4}.spm.stats.results.write.tspm.basename = '_FWE_5';
+matlabbatch{5}.spm.stats.results.spmmat(1) = cfg_dep('Contrast Manager: SPM.mat File', substruct('.','val', '{}',{3}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','spmmat'));
+matlabbatch{5}.spm.stats.results.conspec.titlestr = '';
+matlabbatch{5}.spm.stats.results.conspec.contrasts = Inf;
+matlabbatch{5}.spm.stats.results.conspec.threshdesc = 'none';
+matlabbatch{5}.spm.stats.results.conspec.thresh = 0.005;
+matlabbatch{5}.spm.stats.results.conspec.extent = 50;
+matlabbatch{5}.spm.stats.results.conspec.mask.none = 1;
+matlabbatch{5}.spm.stats.results.units = 1;
+matlabbatch{5}.spm.stats.results.print = 'ps';
+matlabbatch{5}.spm.stats.results.write.tspm.basename = '_0.005_50';
+matlabbatch{6}.spm.stats.results.spmmat(1) = cfg_dep('Contrast Manager: SPM.mat File', substruct('.','val', '{}',{3}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','spmmat'));
+matlabbatch{6}.spm.stats.results.conspec.titlestr = '';
+matlabbatch{6}.spm.stats.results.conspec.contrasts = Inf;
+matlabbatch{6}.spm.stats.results.conspec.threshdesc = 'none';
+matlabbatch{6}.spm.stats.results.conspec.thresh = 0.001;
+matlabbatch{6}.spm.stats.results.conspec.extent = 50;
+matlabbatch{6}.spm.stats.results.conspec.mask.none = 1;
+matlabbatch{6}.spm.stats.results.units = 1;
+matlabbatch{6}.spm.stats.results.print = 'ps';
+matlabbatch{6}.spm.stats.results.write.tspm.basename = '_0.001_50';
+matlabbatch{7}.spm.stats.results.spmmat(1) = cfg_dep('Contrast Manager: SPM.mat File', substruct('.','val', '{}',{3}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','spmmat'));
+matlabbatch{7}.spm.stats.results.conspec.titlestr = '';
+matlabbatch{7}.spm.stats.results.conspec.contrasts = Inf;
+matlabbatch{7}.spm.stats.results.conspec.threshdesc = 'none';
+matlabbatch{7}.spm.stats.results.conspec.thresh = 0.01;
+matlabbatch{7}.spm.stats.results.conspec.extent = 50;
+matlabbatch{7}.spm.stats.results.conspec.mask.none = 1;
+matlabbatch{7}.spm.stats.results.units = 1;
+matlabbatch{7}.spm.stats.results.print = 'ps';
+matlabbatch{7}.spm.stats.results.write.tspm.basename = '_0.01_50';
