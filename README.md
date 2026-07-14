@@ -112,15 +112,6 @@ The toolbox follows common SPM-style filename prefixes. Depending on the selecte
 
 Exact outputs depend on the selected animal, modality, preprocessing options, and input file naming.
 
-## Citation
-
-If you use this toolbox in academic work, please cite the relevant animal-template or processing-method publications associated with your analysis. The toolbox startup message currently lists the following references:
-
-- Nie, Binbin, et al. Human Brain Mapping, 2013, 34:1306-1318.
-- Nie, Binbin, et al. Magnetic Resonance Imaging, 2019, 57:83-94.
-- Nie, Binbin, et al. NeuroImage, 2019, 203:116163.
-
-Please confirm the final citation format and any additional toolbox-specific citation requirements with the toolbox authors before publication.
 
 ## Notes for GitHub Release
 
